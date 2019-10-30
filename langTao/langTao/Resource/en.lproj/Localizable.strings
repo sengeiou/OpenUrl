@@ -1,0 +1,188 @@
+/* 
+  Localizable.strings
+  langTao
+
+  Created by LonTe on 2019/8/6.
+  Copyright © 2019 LonTe. All rights reserved.
+*/
+
+"OK" = "OK";
+"Cancel" = "Cancel";
+"NO" = "NO";
+"Done" = "Done";
+"Album" = "Local";
+"Camera" = "Shoot";
+"CRRefreshFooterIdleText" = "Loading more";
+"CRRefreshFooterNoMoreText" = "No more data";
+"CRRefreshFooterRefreshingText" = "Loading...";
+
+"Unknown network" = "Unknown network";
+"Unknown error" = "Unknown error";
+"Data parsing failure" = "Data parsing failure";
+"Network anomalies" = "Network anomalies";
+"Using WiFi" = "Using WiFi";
+"Using 3G/4G" = "Using 3G/4G";
+"Save to album" = "Save to album";
+"Successful Picture Preservation" = "Successful Picture Preservation";
+"Failed to save pictures" = "Failed to save pictures";
+"Please enter your phone number" = "Please enter your phone number";
+"Please input a password" = "Please input a password";
+"Password must not be less than 6 bits" = "Password must not be less than 6 bits";
+"Please enter the verification code" = "Please enter the verification code";
+"Please enter your password again" = "Please enter your password again";
+"Two inconsistent password input" = "Two inconsistent password input";
+"Please input a new password" = "Please input a new password";
+"Please enter your new password again" = "Please enter your new password again";
+"Login Successful" = "Login Successful";
+"Login failed" = "Login failed";
+"Modified success" = "Modified success";
+"Clear image cache" = "Clear the image cache?";
+"Determine logout" = "Determine logout?";
+"Please enter your valuable comments and feedback" = "Please enter your valuable comments and feedback";
+"Choose the way to upload?" = "Choose the way to upload?";
+"Enter nicknames" = "Enter nicknames";
+"Please enter a nickname" = "Please enter a nickname";
+"After modifying the mobile phone number, login again will use the new mobile phone number. Do you want to continue?" = "After modifying the mobile phone number, login again will use the new mobile phone number. Do you want to continue?";
+"Submit successfully" = "Submit successfully";
+"No data" = "No data";
+"Registration means consent" = "Registration means consent";
+"User Privacy Policy Agreement" = "《Agreement》";
+"Privacy Policy Agreement" = "User Privacy Policy Agreement";
+"Please agree to the User Privacy Policy Agreement" = "Please agree to the User Privacy Policy Agreement";
+
+"User Icon" = "User Icon";
+"Nickname" = "Nickname";
+"Phone number" = "Phone number";
+"New Phone number" = "Please enter a new cell phone number";
+"Password" = "Password";
+"Enter password" = "Enter password";
+"Enter password again" = "Enter password again";
+"Enter new password" = "Enter new password";
+"Enter new password again" = "Enter new password again";
+"Sign in" = "Sign in";
+"Login" = "Login";
+"LoginT" = "Login";
+"Forgot Password" = "Forgot Password";
+"Forget Password" = "Forget Password?";
+"Change Password" = "Change Password";
+"Verification Code" = "Verification Code";
+"Get Code" = "Get Code";
+"Retrieve Code" = "Retrieve Code";
+"Next" = "Next";
+"Submit" = "Submit";
+"User" = "User";
+
+"Home" = "Home";
+"Class" = "Class";
+"Message" = "Message";
+"News" = "News";
+"Me" = "Me";
+"Setup" = "Setup";
+
+"New" = "New";
+"Factory" = "E-cigarette";
+"Supplier" = "Supplier";
+"Joint Venture" = "Cooperation";
+"Fume" = "Fume";
+"Domestic" = "Domestic";
+"Global" = "Global";
+"Tradeleads" = "Tradeleads";
+"Recruit" = "Recruit";
+"Contact Us" = "Contact Us";
+"HOT" = "HOT";
+
+"Profile" = "Profile";
+"Language" = "Language";
+"Clear Cache" = "Clear Cache";
+"Version" = "Version";
+"Feedback" = "Feedback";
+"About us" = "About us";
+"Log out" = "Log out";
+"Modify nickname" = "Modify nickname";
+"Modify mobile" = "Modify mobile";
+
+"Search history" = "Search history";
+"Product Detail" = "Product Detail";
+"Business Detail" = "Business Detail";
+"No product uploaded yet" = "No product uploaded yet";
+"Product Details Introduction Diagram" = "Product Details Introduction Diagram:";
+"You haven't entered the company yet" = "You haven't entered the company yet";
+"You haven't entered the company yet. Do you want to enter or not?" = "You haven't entered the company yet. Do you want to enter or not?";
+"Subordinate material" = "Subordinate material:";
+"Company Profile" = "Company Profile";
+"Company address" = "Company address";
+"Company Telephone" = "Company Telephone";
+"Company Products" = "Company Products";
+"View all products" = "View all products";
+"All products" = "All products";
+"Enterprise residence" = "Enterprise entry";
+"Modify resident information" = "Modify resident information";
+"Enterprise management" = "Enterprise manage";
+"Product management" = "Product manage";
+"Upload product" = "Upload product";
+"Modifying Products" = "Modifying Products";
+"Modify product information" = "Modify product information";
+"NoData" = "No";
+"Product" = "Product";
+"Supplier" = "Supplier";
+
+"EnterpriseCategory" = "Enterprise Category";
+"ProductCategory" = "Product Category";
+
+"Product Name" = "Name：";
+"Product Material" = "Material：";
+"Product Cover Chart" = "Product Cover Chart：";
+"Product detail drawing" = "Product detail drawing：";
+
+"Warm reminder" = "Warm reminder";
+"Enterprise name" = "Name：";
+"Enterprise Category" = "Category：";
+"Product Category" = "Sub Class：";
+"Product video" = "Product video：";
+"Contact Phone" = "Phone：";
+"Enterprise address" = "Address：";
+"Enterprise Logo" = "Enterprise Logo:";
+"Introduction to Enterprises" = "Introduction to Enterprises:";
+"Business License" = "Business License:";
+"Corporate advertising map" = "Corporate advertising map:";
+"Successful application" = "Successful application";
+"Increase success" = "Increase success";
+"Successful revision" = "Successful revision";
+"Delete Successfully" = "Delete Successfully";
+"The company is under review. Please wait a moment." = "The company is under review. Please wait a moment.";
+"This product is under review, please wait a moment..." = "This product is under review, please wait a moment...";
+"Modify enterprise information" = "Modify enterprise information";
+
+"Please enter the product name" = "Please enter the product name";
+"Please fill in the material of the product." = "Please fill in the material of the product.";
+"Please upload a product cover map" = "Please upload a product cover map";
+"Please upload product details, at least three." = "Please upload details of the product, at least 3 sheets (drag and drop by picture).";
+"Please upload product details, at least three" = "Please upload details of the product, at least 3 sheets";
+
+"Please enter the name of the enterprise" = "Please enter the name of the enterprise";
+"Please select enterprise category" = "Please select enterprise category";
+"Please select product category" = "Please select product category";
+"Please enter the enterprise address" = "Please enter the enterprise address";
+"Please describe the background of the enterprise" = "Please describe the background of the enterprise";
+"Please upload a logo map of the enterprise" = "Please upload a logo map of the enterprise";
+"Please upload the business license of the enterprise" = "Please upload the business license of the enterprise";
+"Please upload an advertisement bitmap of an enterprise. It is suggested that the ratio of image length to width be 16:9" = "Please upload an advertisement bitmap of an enterprise. It is suggested that the ratio of image length to width be 16:9";
+"Please upload an advertisement bitmap of an enterprise" = "Please upload an advertisement bitmap of an enterprise";
+"After revising the enterprise information, we need to re-examine it to confirm whether it has been revised or not." = "After revising the enterprise information, we need to re-examine it to confirm whether it has been revised or not.";
+"After modifying the product information, it is necessary to re-examine and confirm whether it has been modified or not." = "After modifying the product information, it is necessary to re-examine and confirm whether it has been modified or not.";
+"Choose at least one classification" = "Choose at least one classification";
+"You can choose up to x pictures." = "You can choose up to %d pictures.";
+"Delete" = "Delete";
+"Are you sure you want to delete this product? " = "Are you sure you want to delete this product? ";
+"In Audit" = "In Audit";
+"Upload Product Videos (this option is optional)" = "Upload Product Videos (this option is optional)";
+
+"video" = "video";
+"picture" = "picture";
+"Video Address Error" = "Video Address Error";
+
+"Using System Language" = "Using System Language";
+
+"aboutUsTitle" = "Ehoo";
+"aboutUsMsg" = "\t  App, the mobile terminal of Business-Enterprise Communication, combines enterprise communication with enterprise information publishing function. It is a free publishing platform for instant promotion of enterprise information to users'mobile phones. App is an additional function of enterprise communication, which provides users with more opportunities to display information. [Quality Assurance] The telephone connection rate is 99%, and the sound quality is comparable to that of operators.";
+"aboutUsVersion" = "Version";

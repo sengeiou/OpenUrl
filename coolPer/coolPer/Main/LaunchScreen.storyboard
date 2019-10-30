@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="跑步" translatesAutoresizingMaskIntoConstraints="NO" id="kLL-NU-efb">
+                                <rect key="frame" x="-7" y="75" width="428" height="636"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aeb-fK-NXy">
+                                <rect key="frame" x="105" y="740" width="204" height="102"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smallAPP" translatesAutoresizingMaskIntoConstraints="NO" id="27h-P0-JSW">
+                                        <rect key="frame" x="0.0" y="0.0" width="102" height="102"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="酷跑守护" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KC6-Ac-Qmw">
+                                        <rect key="frame" x="122" y="39" width="82" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="KC6-Ac-Qmw" firstAttribute="centerY" secondItem="27h-P0-JSW" secondAttribute="centerY" id="1Jw-Zv-BGB"/>
+                                    <constraint firstItem="27h-P0-JSW" firstAttribute="leading" secondItem="aeb-fK-NXy" secondAttribute="leading" id="5Ql-mF-MU6"/>
+                                    <constraint firstAttribute="trailing" secondItem="KC6-Ac-Qmw" secondAttribute="trailing" id="A4t-O8-Z7t"/>
+                                    <constraint firstItem="KC6-Ac-Qmw" firstAttribute="leading" secondItem="27h-P0-JSW" secondAttribute="trailing" constant="20" id="Mue-M6-N9U"/>
+                                    <constraint firstAttribute="bottom" secondItem="27h-P0-JSW" secondAttribute="bottom" id="bbo-Jb-9aq"/>
+                                    <constraint firstItem="27h-P0-JSW" firstAttribute="top" secondItem="aeb-fK-NXy" secondAttribute="top" id="tAv-5j-v2R"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27058823529411763" green="0.77647058823529413" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aeb-fK-NXy" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Od5-P5-9it"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="aeb-fK-NXy" secondAttribute="bottom" constant="20" id="elh-dX-wZy"/>
+                            <constraint firstItem="kLL-NU-efb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-55" id="gmE-vq-fcO"/>
+                            <constraint firstItem="kLL-NU-efb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qvd-WB-ntJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="smallAPP" width="51" height="51"/>
+        <image name="跑步" width="214" height="318"/>
+    </resources>
+</document>

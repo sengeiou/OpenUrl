@@ -1,0 +1,1187 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B338FAD79E8D3D69D6CEDAC /* Pods_coolPer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC3C2EC4E92B7B7B027ACB1 /* Pods_coolPer.framework */; };
+		37271AE922D712AD000EE346 /* LTRuningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37271AE822D712AD000EE346 /* LTRuningViewController.swift */; };
+		373F646A22D595F6005322BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373F645522D595F6005322BF /* Assets.xcassets */; };
+		373F646C22D595F6005322BF /* LTNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F645922D595F6005322BF /* LTNavigationController.swift */; };
+		373F646D22D595F6005322BF /* LTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F645A22D595F6005322BF /* LTViewController.swift */; };
+		373F646E22D595F6005322BF /* SendMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F645B22D595F6005322BF /* SendMessageView.swift */; };
+		373F647022D595F6005322BF /* LTBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F645D22D595F6005322BF /* LTBanner.swift */; };
+		373F647122D595F6005322BF /* LTNavigationBackButtonHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F645E22D595F6005322BF /* LTNavigationBackButtonHandler.swift */; };
+		373F647222D595F6005322BF /* LTHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F645F22D595F6005322BF /* LTHUD.swift */; };
+		373F647322D595F6005322BF /* LTTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F646022D595F6005322BF /* LTTheme.swift */; };
+		373F647422D595F6005322BF /* LTNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F646122D595F6005322BF /* LTNetworking.swift */; };
+		373F647522D595F6005322BF /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F646322D595F6005322BF /* Common.swift */; };
+		373F647722D595F6005322BF /* LTApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F646522D595F6005322BF /* LTApi.swift */; };
+		373F647822D595F6005322BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F646722D595F6005322BF /* AppDelegate.swift */; };
+		373F648322D5BA38005322BF /* LTHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F648222D5BA38005322BF /* LTHomeViewController.swift */; };
+		373F648522D5BB87005322BF /* LTRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F648422D5BB87005322BF /* LTRegisterViewController.swift */; };
+		373F648722D5EDF5005322BF /* LTCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F648622D5EDF5005322BF /* LTCollectionView.swift */; };
+		373F648922D5EE10005322BF /* LTHomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F648822D5EE10005322BF /* LTHomeItem.swift */; };
+		373F648B22D5EE78005322BF /* LTHomeItemLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F648A22D5EE78005322BF /* LTHomeItemLayout.swift */; };
+		37437CD823419845007FE10C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37437CD723419845007FE10C /* LaunchScreen.storyboard */; };
+		37487899235AA5FA00F20CB8 /* LTMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37487898235AA5FA00F20CB8 /* LTMapController.swift */; };
+		375E2239235162570098183F /* LTRunLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375E2238235162570098183F /* LTRunLineCell.swift */; };
+		37626911234F3C3A008B428A /* LTRuningBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37626910234F3C3A008B428A /* LTRuningBarCell.swift */; };
+		37626913234F4765008B428A /* LTXinLvController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37626912234F4765008B428A /* LTXinLvController.swift */; };
+		37825C3A2350562C00ADBF48 /* LTXueYaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37825C392350562C00ADBF48 /* LTXueYaController.swift */; };
+		37825C3C2350651D00ADBF48 /* LTXueYaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37825C3B2350651D00ADBF48 /* LTXueYaViewCell.swift */; };
+		37825C4223506B6A00ADBF48 /* LTPhotographController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37825C4123506B6A00ADBF48 /* LTPhotographController.swift */; };
+		37825C50235076C100ADBF48 /* LTLostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37825C4F235076C100ADBF48 /* LTLostViewController.swift */; };
+		37825C522350776400ADBF48 /* LTMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37825C512350776400ADBF48 /* LTMessageViewController.swift */; };
+		37825C542350783800ADBF48 /* LTLocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37825C532350783800ADBF48 /* LTLocalViewController.swift */; };
+		37825C5A2350793A00ADBF48 /* LTShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37825C592350793A00ADBF48 /* LTShopViewController.swift */; };
+		37825C6C23509CBB00ADBF48 /* LTRunLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37825C6B23509CBB00ADBF48 /* LTRunLineViewController.swift */; };
+		37825C6E23509CED00ADBF48 /* LTAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37825C6D23509CED00ADBF48 /* LTAlarmViewController.swift */; };
+		37825C7023509D2B00ADBF48 /* LTSetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37825C6F23509D2B00ADBF48 /* LTSetUpViewController.swift */; };
+		37825C7223509D5500ADBF48 /* LTMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37825C7123509D5500ADBF48 /* LTMeViewController.swift */; };
+		37825C742350A1F300ADBF48 /* LTAlarmViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37825C732350A1F300ADBF48 /* LTAlarmViewCell.swift */; };
+		378A558E22E54B5A0034079E /* LTLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A558D22E54B5A0034079E /* LTLoginViewController.swift */; };
+		378A559022E56F6F0034079E /* LTFindPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A558F22E56F6F0034079E /* LTFindPasswordViewController.swift */; };
+		378A559222E5B6FC0034079E /* LTUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A559122E5B6FC0034079E /* LTUserInfoViewController.swift */; };
+		378A559422E5DA2C0034079E /* LTDatePicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A559322E5DA2C0034079E /* LTDatePicket.swift */; };
+		379277E622E8337500216706 /* LTDeviceInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379277E522E8337500216706 /* LTDeviceInfoController.swift */; };
+		3794191322E6B89800AD8B24 /* LTImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3794191222E6B89800AD8B24 /* LTImagePickerController.swift */; };
+		3794191922E6DBFE00AD8B24 /* LTBingDeviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3794191822E6DBFE00AD8B24 /* LTBingDeviceController.swift */; };
+		37AFC503235409F2007C1426 /* LTRingManageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AFC502235409F2007C1426 /* LTRingManageController.swift */; };
+		37AFC5052354282C007C1426 /* LTRingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AFC5042354282C007C1426 /* LTRingCell.swift */; };
+		37AFC50923544F50007C1426 /* LTAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AFC50823544F50007C1426 /* LTAboutViewController.swift */; };
+		37CC0C40234C3F5D00151CD1 /* LTFindPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC0C3F234C3F5D00151CD1 /* LTFindPhoneViewController.swift */; };
+		37CC0C42234C590E00151CD1 /* LTSleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC0C41234C590E00151CD1 /* LTSleepViewController.swift */; };
+		37CC0C44234CB01100151CD1 /* LTChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC0C43234CB01100151CD1 /* LTChartView.swift */; };
+		37D0EEA4234DF3BB009D84C9 /* LTRuningCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D0EEA3234DF3BB009D84C9 /* LTRuningCollectionViewCell.swift */; };
+		37F0CC232351D28400D714F8 /* LTReSetPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F0CC222351D28400D714F8 /* LTReSetPasswordController.swift */; };
+		37F0CC252351DC8300D714F8 /* LTReSetRunInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F0CC242351DC8300D714F8 /* LTReSetRunInfoController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37271AE822D712AD000EE346 /* LTRuningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTRuningViewController.swift; sourceTree = "<group>"; };
+		373F645522D595F6005322BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		373F645922D595F6005322BF /* LTNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTNavigationController.swift; sourceTree = "<group>"; };
+		373F645A22D595F6005322BF /* LTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTViewController.swift; sourceTree = "<group>"; };
+		373F645B22D595F6005322BF /* SendMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageView.swift; sourceTree = "<group>"; };
+		373F645D22D595F6005322BF /* LTBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTBanner.swift; sourceTree = "<group>"; };
+		373F645E22D595F6005322BF /* LTNavigationBackButtonHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTNavigationBackButtonHandler.swift; sourceTree = "<group>"; };
+		373F645F22D595F6005322BF /* LTHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTHUD.swift; sourceTree = "<group>"; };
+		373F646022D595F6005322BF /* LTTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTTheme.swift; sourceTree = "<group>"; };
+		373F646122D595F6005322BF /* LTNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTNetworking.swift; sourceTree = "<group>"; };
+		373F646322D595F6005322BF /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		373F646422D595F6005322BF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373F646522D595F6005322BF /* LTApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTApi.swift; sourceTree = "<group>"; };
+		373F646722D595F6005322BF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		373F648222D5BA38005322BF /* LTHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTHomeViewController.swift; sourceTree = "<group>"; };
+		373F648422D5BB87005322BF /* LTRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTRegisterViewController.swift; sourceTree = "<group>"; };
+		373F648622D5EDF5005322BF /* LTCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTCollectionView.swift; sourceTree = "<group>"; };
+		373F648822D5EE10005322BF /* LTHomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTHomeItem.swift; sourceTree = "<group>"; };
+		373F648A22D5EE78005322BF /* LTHomeItemLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTHomeItemLayout.swift; sourceTree = "<group>"; };
+		37437CD723419845007FE10C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37487898235AA5FA00F20CB8 /* LTMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTMapController.swift; sourceTree = "<group>"; };
+		375E2238235162570098183F /* LTRunLineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTRunLineCell.swift; sourceTree = "<group>"; };
+		37626910234F3C3A008B428A /* LTRuningBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTRuningBarCell.swift; sourceTree = "<group>"; };
+		37626912234F4765008B428A /* LTXinLvController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTXinLvController.swift; sourceTree = "<group>"; };
+		37825C392350562C00ADBF48 /* LTXueYaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTXueYaController.swift; sourceTree = "<group>"; };
+		37825C3B2350651D00ADBF48 /* LTXueYaViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTXueYaViewCell.swift; sourceTree = "<group>"; };
+		37825C4123506B6A00ADBF48 /* LTPhotographController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTPhotographController.swift; sourceTree = "<group>"; };
+		37825C4F235076C100ADBF48 /* LTLostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTLostViewController.swift; sourceTree = "<group>"; };
+		37825C512350776400ADBF48 /* LTMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTMessageViewController.swift; sourceTree = "<group>"; };
+		37825C532350783800ADBF48 /* LTLocalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTLocalViewController.swift; sourceTree = "<group>"; };
+		37825C592350793A00ADBF48 /* LTShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTShopViewController.swift; sourceTree = "<group>"; };
+		37825C6B23509CBB00ADBF48 /* LTRunLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTRunLineViewController.swift; sourceTree = "<group>"; };
+		37825C6D23509CED00ADBF48 /* LTAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTAlarmViewController.swift; sourceTree = "<group>"; };
+		37825C6F23509D2B00ADBF48 /* LTSetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTSetUpViewController.swift; sourceTree = "<group>"; };
+		37825C7123509D5500ADBF48 /* LTMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTMeViewController.swift; sourceTree = "<group>"; };
+		37825C732350A1F300ADBF48 /* LTAlarmViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTAlarmViewCell.swift; sourceTree = "<group>"; };
+		378A558D22E54B5A0034079E /* LTLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTLoginViewController.swift; sourceTree = "<group>"; };
+		378A558F22E56F6F0034079E /* LTFindPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTFindPasswordViewController.swift; sourceTree = "<group>"; };
+		378A559122E5B6FC0034079E /* LTUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTUserInfoViewController.swift; sourceTree = "<group>"; };
+		378A559322E5DA2C0034079E /* LTDatePicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTDatePicket.swift; sourceTree = "<group>"; };
+		379277E522E8337500216706 /* LTDeviceInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTDeviceInfoController.swift; sourceTree = "<group>"; };
+		3794191222E6B89800AD8B24 /* LTImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTImagePickerController.swift; sourceTree = "<group>"; };
+		3794191822E6DBFE00AD8B24 /* LTBingDeviceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTBingDeviceController.swift; sourceTree = "<group>"; };
+		37AFC502235409F2007C1426 /* LTRingManageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTRingManageController.swift; sourceTree = "<group>"; };
+		37AFC5042354282C007C1426 /* LTRingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTRingCell.swift; sourceTree = "<group>"; };
+		37AFC50823544F50007C1426 /* LTAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTAboutViewController.swift; sourceTree = "<group>"; };
+		37CC0C3F234C3F5D00151CD1 /* LTFindPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTFindPhoneViewController.swift; sourceTree = "<group>"; };
+		37CC0C41234C590E00151CD1 /* LTSleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTSleepViewController.swift; sourceTree = "<group>"; };
+		37CC0C43234CB01100151CD1 /* LTChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTChartView.swift; sourceTree = "<group>"; };
+		37D0EEA3234DF3BB009D84C9 /* LTRuningCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTRuningCollectionViewCell.swift; sourceTree = "<group>"; };
+		37F0CC222351D28400D714F8 /* LTReSetPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTReSetPasswordController.swift; sourceTree = "<group>"; };
+		37F0CC242351DC8300D714F8 /* LTReSetRunInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTReSetRunInfoController.swift; sourceTree = "<group>"; };
+		37FD058E22CF0A3300427EF8 /* 酷跑守护.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "酷跑守护.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4B482758D1CCA8F3362598 /* Pods-coolPer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coolPer.debug.xcconfig"; path = "Target Support Files/Pods-coolPer/Pods-coolPer.debug.xcconfig"; sourceTree = "<group>"; };
+		6FC3C2EC4E92B7B7B027ACB1 /* Pods_coolPer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coolPer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8D5851AE8517101BCF5DE1 /* Pods-coolPer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coolPer.release.xcconfig"; path = "Target Support Files/Pods-coolPer/Pods-coolPer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37FD058B22CF0A3300427EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B338FAD79E8D3D69D6CEDAC /* Pods_coolPer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37271AE422D7126F000EE346 /* Runing */ = {
+			isa = PBXGroup;
+			children = (
+				37271AE522D7126F000EE346 /* ViewModel */,
+				37271AE622D7126F000EE346 /* Model */,
+				37271AE722D7126F000EE346 /* View */,
+			);
+			path = Runing;
+			sourceTree = "<group>";
+		};
+		37271AE522D7126F000EE346 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37271AE622D7126F000EE346 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37271AE722D7126F000EE346 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37271AE822D712AD000EE346 /* LTRuningViewController.swift */,
+				37D0EEA3234DF3BB009D84C9 /* LTRuningCollectionViewCell.swift */,
+				37626910234F3C3A008B428A /* LTRuningBarCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		373F645422D595F6005322BF /* coolPer */ = {
+			isa = PBXGroup;
+			children = (
+				373F646822D595F6005322BF /* CoolPer */,
+				373F645822D595F6005322BF /* LTLibrary */,
+				373F646222D595F6005322BF /* Resource */,
+				373F646622D595F6005322BF /* Main */,
+				373F645522D595F6005322BF /* Assets.xcassets */,
+			);
+			path = coolPer;
+			sourceTree = "<group>";
+		};
+		373F645822D595F6005322BF /* LTLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				373F645922D595F6005322BF /* LTNavigationController.swift */,
+				373F645A22D595F6005322BF /* LTViewController.swift */,
+				373F645B22D595F6005322BF /* SendMessageView.swift */,
+				373F645D22D595F6005322BF /* LTBanner.swift */,
+				373F645E22D595F6005322BF /* LTNavigationBackButtonHandler.swift */,
+				373F645F22D595F6005322BF /* LTHUD.swift */,
+				373F646022D595F6005322BF /* LTTheme.swift */,
+				373F646122D595F6005322BF /* LTNetworking.swift */,
+			);
+			path = LTLibrary;
+			sourceTree = "<group>";
+		};
+		373F646222D595F6005322BF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				373F646322D595F6005322BF /* Common.swift */,
+				373F646522D595F6005322BF /* LTApi.swift */,
+				373F646422D595F6005322BF /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		373F646622D595F6005322BF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				373F646722D595F6005322BF /* AppDelegate.swift */,
+				37437CD723419845007FE10C /* LaunchScreen.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		373F646822D595F6005322BF /* CoolPer */ = {
+			isa = PBXGroup;
+			children = (
+				37CC0C37234C3E4000151CD1 /* 查找手机 */,
+				37CC0C2F234C3E4000151CD1 /* 睡眠监测 */,
+				37825C43235075FB00ADBF48 /* 防走丢 */,
+				37825C47235075FB00ADBF48 /* 我的定位 */,
+				37825C4B235075FB00ADBF48 /* 消息提醒 */,
+				37CC0C33234C3E4000151CD1 /* 心率 */,
+				37825C552350791E00ADBF48 /* 商城 */,
+				37825C3D23506B0700ADBF48 /* 拍照 */,
+				37CC0C3B234C3E4000151CD1 /* 血压 */,
+				37271AE422D7126F000EE346 /* Runing */,
+				37825C5B23509C7400ADBF48 /* 酷跑圈 */,
+				37487894235AA5E700F20CB8 /* 地图 */,
+				37825C6723509C7400ADBF48 /* 闹钟 */,
+				37825C5F23509C7400ADBF48 /* 设置 */,
+				37825C6323509C7400ADBF48 /* 我的 */,
+				3794191422E6DBA000AD8B24 /* 设备管理 */,
+				373F647A22D5BA38005322BF /* 注册登录 */,
+				373F647E22D5BA38005322BF /* 主页 */,
+			);
+			path = CoolPer;
+			sourceTree = "<group>";
+		};
+		373F647A22D5BA38005322BF /* 注册登录 */ = {
+			isa = PBXGroup;
+			children = (
+				373F647B22D5BA38005322BF /* ViewModel */,
+				373F647C22D5BA38005322BF /* Model */,
+				373F647D22D5BA38005322BF /* View */,
+			);
+			path = "注册登录";
+			sourceTree = "<group>";
+		};
+		373F647B22D5BA38005322BF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		373F647C22D5BA38005322BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		373F647D22D5BA38005322BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				373F648422D5BB87005322BF /* LTRegisterViewController.swift */,
+				378A559122E5B6FC0034079E /* LTUserInfoViewController.swift */,
+				378A558D22E54B5A0034079E /* LTLoginViewController.swift */,
+				378A558F22E56F6F0034079E /* LTFindPasswordViewController.swift */,
+				378A559322E5DA2C0034079E /* LTDatePicket.swift */,
+				3794191222E6B89800AD8B24 /* LTImagePickerController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		373F647E22D5BA38005322BF /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				373F647F22D5BA38005322BF /* ViewModel */,
+				373F648022D5BA38005322BF /* Model */,
+				373F648122D5BA38005322BF /* View */,
+			);
+			path = "主页";
+			sourceTree = "<group>";
+		};
+		373F647F22D5BA38005322BF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		373F648022D5BA38005322BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		373F648122D5BA38005322BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				373F648222D5BA38005322BF /* LTHomeViewController.swift */,
+				373F648A22D5EE78005322BF /* LTHomeItemLayout.swift */,
+				373F648622D5EDF5005322BF /* LTCollectionView.swift */,
+				373F648822D5EE10005322BF /* LTHomeItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37487894235AA5E700F20CB8 /* 地图 */ = {
+			isa = PBXGroup;
+			children = (
+				37487895235AA5E700F20CB8 /* ViewModel */,
+				37487896235AA5E700F20CB8 /* Model */,
+				37487897235AA5E700F20CB8 /* View */,
+			);
+			path = "地图";
+			sourceTree = "<group>";
+		};
+		37487895235AA5E700F20CB8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37487896235AA5E700F20CB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37487897235AA5E700F20CB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37487898235AA5FA00F20CB8 /* LTMapController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37825C3D23506B0700ADBF48 /* 拍照 */ = {
+			isa = PBXGroup;
+			children = (
+				37825C3E23506B0700ADBF48 /* ViewModel */,
+				37825C3F23506B0700ADBF48 /* Model */,
+				37825C4023506B0700ADBF48 /* View */,
+			);
+			path = "拍照";
+			sourceTree = "<group>";
+		};
+		37825C3E23506B0700ADBF48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37825C3F23506B0700ADBF48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37825C4023506B0700ADBF48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37825C4123506B6A00ADBF48 /* LTPhotographController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37825C43235075FB00ADBF48 /* 防走丢 */ = {
+			isa = PBXGroup;
+			children = (
+				37825C44235075FB00ADBF48 /* ViewModel */,
+				37825C45235075FB00ADBF48 /* Model */,
+				37825C46235075FB00ADBF48 /* View */,
+			);
+			path = "防走丢";
+			sourceTree = "<group>";
+		};
+		37825C44235075FB00ADBF48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37825C45235075FB00ADBF48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37825C46235075FB00ADBF48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37825C4F235076C100ADBF48 /* LTLostViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37825C47235075FB00ADBF48 /* 我的定位 */ = {
+			isa = PBXGroup;
+			children = (
+				37825C48235075FB00ADBF48 /* ViewModel */,
+				37825C49235075FB00ADBF48 /* Model */,
+				37825C4A235075FB00ADBF48 /* View */,
+			);
+			path = "我的定位";
+			sourceTree = "<group>";
+		};
+		37825C48235075FB00ADBF48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37825C49235075FB00ADBF48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37825C4A235075FB00ADBF48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37825C532350783800ADBF48 /* LTLocalViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37825C4B235075FB00ADBF48 /* 消息提醒 */ = {
+			isa = PBXGroup;
+			children = (
+				37825C4C235075FB00ADBF48 /* ViewModel */,
+				37825C4D235075FB00ADBF48 /* Model */,
+				37825C4E235075FB00ADBF48 /* View */,
+			);
+			path = "消息提醒";
+			sourceTree = "<group>";
+		};
+		37825C4C235075FB00ADBF48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37825C4D235075FB00ADBF48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37825C4E235075FB00ADBF48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37825C512350776400ADBF48 /* LTMessageViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37825C552350791E00ADBF48 /* 商城 */ = {
+			isa = PBXGroup;
+			children = (
+				37825C562350791E00ADBF48 /* ViewModel */,
+				37825C572350791E00ADBF48 /* Model */,
+				37825C582350791E00ADBF48 /* View */,
+			);
+			path = "商城";
+			sourceTree = "<group>";
+		};
+		37825C562350791E00ADBF48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37825C572350791E00ADBF48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37825C582350791E00ADBF48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37825C592350793A00ADBF48 /* LTShopViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37825C5B23509C7400ADBF48 /* 酷跑圈 */ = {
+			isa = PBXGroup;
+			children = (
+				37825C5C23509C7400ADBF48 /* ViewModel */,
+				37825C5D23509C7400ADBF48 /* Model */,
+				37825C5E23509C7400ADBF48 /* View */,
+			);
+			path = "酷跑圈";
+			sourceTree = "<group>";
+		};
+		37825C5C23509C7400ADBF48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37825C5D23509C7400ADBF48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37825C5E23509C7400ADBF48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37825C6B23509CBB00ADBF48 /* LTRunLineViewController.swift */,
+				375E2238235162570098183F /* LTRunLineCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37825C5F23509C7400ADBF48 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				37825C6023509C7400ADBF48 /* ViewModel */,
+				37825C6123509C7400ADBF48 /* Model */,
+				37825C6223509C7400ADBF48 /* View */,
+			);
+			path = "设置";
+			sourceTree = "<group>";
+		};
+		37825C6023509C7400ADBF48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37825C6123509C7400ADBF48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37825C6223509C7400ADBF48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37825C6F23509D2B00ADBF48 /* LTSetUpViewController.swift */,
+				37AFC50823544F50007C1426 /* LTAboutViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37825C6323509C7400ADBF48 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				37825C6423509C7400ADBF48 /* ViewModel */,
+				37825C6523509C7400ADBF48 /* Model */,
+				37825C6623509C7400ADBF48 /* View */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		37825C6423509C7400ADBF48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37825C6523509C7400ADBF48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37825C6623509C7400ADBF48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37825C7123509D5500ADBF48 /* LTMeViewController.swift */,
+				37F0CC222351D28400D714F8 /* LTReSetPasswordController.swift */,
+				37F0CC242351DC8300D714F8 /* LTReSetRunInfoController.swift */,
+				37AFC502235409F2007C1426 /* LTRingManageController.swift */,
+				37AFC5042354282C007C1426 /* LTRingCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37825C6723509C7400ADBF48 /* 闹钟 */ = {
+			isa = PBXGroup;
+			children = (
+				37825C6823509C7400ADBF48 /* ViewModel */,
+				37825C6923509C7400ADBF48 /* Model */,
+				37825C6A23509C7400ADBF48 /* View */,
+			);
+			path = "闹钟";
+			sourceTree = "<group>";
+		};
+		37825C6823509C7400ADBF48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37825C6923509C7400ADBF48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37825C6A23509C7400ADBF48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37825C6D23509CED00ADBF48 /* LTAlarmViewController.swift */,
+				37825C732350A1F300ADBF48 /* LTAlarmViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3794191422E6DBA000AD8B24 /* 设备管理 */ = {
+			isa = PBXGroup;
+			children = (
+				3794191522E6DBA000AD8B24 /* ViewModel */,
+				3794191622E6DBA000AD8B24 /* Model */,
+				3794191722E6DBA000AD8B24 /* View */,
+			);
+			path = "设备管理";
+			sourceTree = "<group>";
+		};
+		3794191522E6DBA000AD8B24 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3794191622E6DBA000AD8B24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3794191722E6DBA000AD8B24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3794191822E6DBFE00AD8B24 /* LTBingDeviceController.swift */,
+				379277E522E8337500216706 /* LTDeviceInfoController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37CC0C2F234C3E4000151CD1 /* 睡眠监测 */ = {
+			isa = PBXGroup;
+			children = (
+				37CC0C30234C3E4000151CD1 /* ViewModel */,
+				37CC0C31234C3E4000151CD1 /* Model */,
+				37CC0C32234C3E4000151CD1 /* View */,
+			);
+			path = "睡眠监测";
+			sourceTree = "<group>";
+		};
+		37CC0C30234C3E4000151CD1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37CC0C31234C3E4000151CD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37CC0C32234C3E4000151CD1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37CC0C41234C590E00151CD1 /* LTSleepViewController.swift */,
+				37CC0C43234CB01100151CD1 /* LTChartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37CC0C33234C3E4000151CD1 /* 心率 */ = {
+			isa = PBXGroup;
+			children = (
+				37CC0C34234C3E4000151CD1 /* ViewModel */,
+				37CC0C35234C3E4000151CD1 /* Model */,
+				37CC0C36234C3E4000151CD1 /* View */,
+			);
+			path = "心率";
+			sourceTree = "<group>";
+		};
+		37CC0C34234C3E4000151CD1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37CC0C35234C3E4000151CD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37CC0C36234C3E4000151CD1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37626912234F4765008B428A /* LTXinLvController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37CC0C37234C3E4000151CD1 /* 查找手机 */ = {
+			isa = PBXGroup;
+			children = (
+				37CC0C38234C3E4000151CD1 /* ViewModel */,
+				37CC0C39234C3E4000151CD1 /* Model */,
+				37CC0C3A234C3E4000151CD1 /* View */,
+			);
+			path = "查找手机";
+			sourceTree = "<group>";
+		};
+		37CC0C38234C3E4000151CD1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37CC0C39234C3E4000151CD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37CC0C3A234C3E4000151CD1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37CC0C3F234C3F5D00151CD1 /* LTFindPhoneViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37CC0C3B234C3E4000151CD1 /* 血压 */ = {
+			isa = PBXGroup;
+			children = (
+				37CC0C3C234C3E4000151CD1 /* ViewModel */,
+				37CC0C3D234C3E4000151CD1 /* Model */,
+				37CC0C3E234C3E4000151CD1 /* View */,
+			);
+			path = "血压";
+			sourceTree = "<group>";
+		};
+		37CC0C3C234C3E4000151CD1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37CC0C3D234C3E4000151CD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37CC0C3E234C3E4000151CD1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37825C392350562C00ADBF48 /* LTXueYaController.swift */,
+				37825C3B2350651D00ADBF48 /* LTXueYaViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37FD058522CF0A3300427EF8 = {
+			isa = PBXGroup;
+			children = (
+				373F645422D595F6005322BF /* coolPer */,
+				37FD058F22CF0A3300427EF8 /* Products */,
+				6F805EB259B931C46A9A71BF /* Pods */,
+				AF8842C432239BDB8CF9A23B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37FD058F22CF0A3300427EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37FD058E22CF0A3300427EF8 /* 酷跑守护.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F805EB259B931C46A9A71BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4B482758D1CCA8F3362598 /* Pods-coolPer.debug.xcconfig */,
+				7D8D5851AE8517101BCF5DE1 /* Pods-coolPer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF8842C432239BDB8CF9A23B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FC3C2EC4E92B7B7B027ACB1 /* Pods_coolPer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37FD058D22CF0A3300427EF8 /* coolPer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FD05A022CF0A3500427EF8 /* Build configuration list for PBXNativeTarget "coolPer" */;
+			buildPhases = (
+				DB828CCF58903B3A7DB8F399 /* [CP] Check Pods Manifest.lock */,
+				37FD058A22CF0A3300427EF8 /* Sources */,
+				37FD058B22CF0A3300427EF8 /* Frameworks */,
+				37FD058C22CF0A3300427EF8 /* Resources */,
+				290D66A2196620650F0B2826 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coolPer;
+			productName = coolRer;
+			productReference = 37FD058E22CF0A3300427EF8 /* 酷跑守护.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37FD058622CF0A3300427EF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LT;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = LangTe;
+				TargetAttributes = {
+					37FD058D22CF0A3300427EF8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 37FD058922CF0A3300427EF8 /* Build configuration list for PBXProject "coolPer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37FD058522CF0A3300427EF8;
+			productRefGroup = 37FD058F22CF0A3300427EF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37FD058D22CF0A3300427EF8 /* coolPer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37FD058C22CF0A3300427EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37437CD823419845007FE10C /* LaunchScreen.storyboard in Resources */,
+				373F646A22D595F6005322BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		290D66A2196620650F0B2826 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coolPer/Pods-coolPer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coolPer/Pods-coolPer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coolPer/Pods-coolPer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB828CCF58903B3A7DB8F399 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coolPer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37FD058A22CF0A3300427EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378A559022E56F6F0034079E /* LTFindPasswordViewController.swift in Sources */,
+				3794191922E6DBFE00AD8B24 /* LTBingDeviceController.swift in Sources */,
+				373F647822D595F6005322BF /* AppDelegate.swift in Sources */,
+				373F646D22D595F6005322BF /* LTViewController.swift in Sources */,
+				373F647222D595F6005322BF /* LTHUD.swift in Sources */,
+				373F646E22D595F6005322BF /* SendMessageView.swift in Sources */,
+				37825C50235076C100ADBF48 /* LTLostViewController.swift in Sources */,
+				373F648522D5BB87005322BF /* LTRegisterViewController.swift in Sources */,
+				37271AE922D712AD000EE346 /* LTRuningViewController.swift in Sources */,
+				378A559222E5B6FC0034079E /* LTUserInfoViewController.swift in Sources */,
+				373F647122D595F6005322BF /* LTNavigationBackButtonHandler.swift in Sources */,
+				378A559422E5DA2C0034079E /* LTDatePicket.swift in Sources */,
+				373F647322D595F6005322BF /* LTTheme.swift in Sources */,
+				373F648B22D5EE78005322BF /* LTHomeItemLayout.swift in Sources */,
+				37825C7023509D2B00ADBF48 /* LTSetUpViewController.swift in Sources */,
+				373F647422D595F6005322BF /* LTNetworking.swift in Sources */,
+				379277E622E8337500216706 /* LTDeviceInfoController.swift in Sources */,
+				37825C3A2350562C00ADBF48 /* LTXueYaController.swift in Sources */,
+				373F646C22D595F6005322BF /* LTNavigationController.swift in Sources */,
+				37825C6C23509CBB00ADBF48 /* LTRunLineViewController.swift in Sources */,
+				37CC0C42234C590E00151CD1 /* LTSleepViewController.swift in Sources */,
+				37626913234F4765008B428A /* LTXinLvController.swift in Sources */,
+				37AFC503235409F2007C1426 /* LTRingManageController.swift in Sources */,
+				37825C4223506B6A00ADBF48 /* LTPhotographController.swift in Sources */,
+				37825C522350776400ADBF48 /* LTMessageViewController.swift in Sources */,
+				37F0CC232351D28400D714F8 /* LTReSetPasswordController.swift in Sources */,
+				373F647722D595F6005322BF /* LTApi.swift in Sources */,
+				373F647522D595F6005322BF /* Common.swift in Sources */,
+				37825C542350783800ADBF48 /* LTLocalViewController.swift in Sources */,
+				37825C6E23509CED00ADBF48 /* LTAlarmViewController.swift in Sources */,
+				373F648922D5EE10005322BF /* LTHomeItem.swift in Sources */,
+				378A558E22E54B5A0034079E /* LTLoginViewController.swift in Sources */,
+				37825C3C2350651D00ADBF48 /* LTXueYaViewCell.swift in Sources */,
+				37825C5A2350793A00ADBF48 /* LTShopViewController.swift in Sources */,
+				37825C7223509D5500ADBF48 /* LTMeViewController.swift in Sources */,
+				373F647022D595F6005322BF /* LTBanner.swift in Sources */,
+				37D0EEA4234DF3BB009D84C9 /* LTRuningCollectionViewCell.swift in Sources */,
+				37F0CC252351DC8300D714F8 /* LTReSetRunInfoController.swift in Sources */,
+				37CC0C44234CB01100151CD1 /* LTChartView.swift in Sources */,
+				37AFC5052354282C007C1426 /* LTRingCell.swift in Sources */,
+				37626911234F3C3A008B428A /* LTRuningBarCell.swift in Sources */,
+				37AFC50923544F50007C1426 /* LTAboutViewController.swift in Sources */,
+				373F648722D5EDF5005322BF /* LTCollectionView.swift in Sources */,
+				37825C742350A1F300ADBF48 /* LTAlarmViewCell.swift in Sources */,
+				37CC0C40234C3F5D00151CD1 /* LTFindPhoneViewController.swift in Sources */,
+				373F648322D5BA38005322BF /* LTHomeViewController.swift in Sources */,
+				3794191322E6B89800AD8B24 /* LTImagePickerController.swift in Sources */,
+				37487899235AA5FA00F20CB8 /* LTMapController.swift in Sources */,
+				375E2239235162570098183F /* LTRunLineCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37FD059E22CF0A3500427EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37FD059F22CF0A3500427EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37FD05A122CF0A3500427EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4B482758D1CCA8F3362598 /* Pods-coolPer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ6AZ2QN62;
+				INFOPLIST_FILE = coolPer/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.langte.coolPer;
+				PRODUCT_NAME = "酷跑守护";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		37FD05A222CF0A3500427EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D8D5851AE8517101BCF5DE1 /* Pods-coolPer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ6AZ2QN62;
+				INFOPLIST_FILE = coolPer/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.langte.coolPer;
+				PRODUCT_NAME = "酷跑守护";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37FD058922CF0A3300427EF8 /* Build configuration list for PBXProject "coolPer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FD059E22CF0A3500427EF8 /* Debug */,
+				37FD059F22CF0A3500427EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FD05A022CF0A3500427EF8 /* Build configuration list for PBXNativeTarget "coolPer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FD05A122CF0A3500427EF8 /* Debug */,
+				37FD05A222CF0A3500427EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37FD058622CF0A3300427EF8 /* Project object */;
+}

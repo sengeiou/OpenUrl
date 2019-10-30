@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  langTao
+
+  Created by LonTe on 2019/8/7.
+  Copyright © 2019 LonTe. All rights reserved.
+*/
+
+"CFBundleDevelopmentRegion" = "en_CA";
+"CFBundleDisplayName" = "Ehoo";
+"NSPhotoLibraryAddUsageDescription" = "Ehoo requests the use of photo albums to facilitate the preservation of pictures";
+"NSPhotoLibraryUsageDescription" = "Ehoo request to use the album to upload pictures";
+"NSCameraUsageDescription" = "Ehoo request to use the camera to take photos and upload pictures";
+"NSMicrophoneUsageDescription" = "Ehoo requests the use of microphones to facilitate video shooting";

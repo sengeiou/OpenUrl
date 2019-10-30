@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="朗特伟业" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5t-FX-mci">
+                                <rect key="frame" x="106.5" y="840.5" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDL-0G-mF0">
+                                <rect key="frame" x="206.5" y="836" width="1.5" height="30"/>
+                                <color key="backgroundColor" red="0.3529411764705882" green="0.36078431372549019" blue="0.50588235294117645" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Cn7-iq-UCf"/>
+                                    <constraint firstAttribute="width" constant="1.5" id="DIl-xD-qPi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smallAppIcon" translatesAutoresizingMaskIntoConstraints="NO" id="yKa-DG-HYi">
+                                <rect key="frame" x="223" y="836" width="30" height="30"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商企通" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDC-Bz-XNc">
+                                <rect key="frame" x="261" y="840.5" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dDC-Bz-XNc" firstAttribute="centerY" secondItem="yKa-DG-HYi" secondAttribute="centerY" id="A12-CG-8GX"/>
+                            <constraint firstItem="yKa-DG-HYi" firstAttribute="centerY" secondItem="fDL-0G-mF0" secondAttribute="centerY" id="Prd-Dd-bX5"/>
+                            <constraint firstItem="E5t-FX-mci" firstAttribute="centerY" secondItem="fDL-0G-mF0" secondAttribute="centerY" id="eON-tW-xj3"/>
+                            <constraint firstItem="yKa-DG-HYi" firstAttribute="leading" secondItem="fDL-0G-mF0" secondAttribute="trailing" constant="15" id="gTe-yo-WV4"/>
+                            <constraint firstItem="fDL-0G-mF0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ibQ-QK-Ezl"/>
+                            <constraint firstItem="dDC-Bz-XNc" firstAttribute="leading" secondItem="yKa-DG-HYi" secondAttribute="trailing" constant="8" id="qoS-Dj-iAn"/>
+                            <constraint firstItem="fDL-0G-mF0" firstAttribute="leading" secondItem="E5t-FX-mci" secondAttribute="trailing" constant="30" id="t0f-3f-62T"/>
+                            <constraint firstAttribute="bottom" secondItem="fDL-0G-mF0" secondAttribute="bottom" constant="30" id="x7g-Ub-hg2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="smallAppIcon" width="30" height="30"/>
+    </resources>
+</document>
